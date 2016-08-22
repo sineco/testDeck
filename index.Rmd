@@ -24,7 +24,9 @@ knit        : slidify::knit2slides
 - Whatever you put after `##` will be the title of the slide.
 - `---` marks the end of the slide.
 - `.class #id` are `CSS` attributes you can use to customize the slide.
-- Whatever you put between `##` and `---` is up to you! As long as it is valid R\
-Markdown or `HTML`.
+- Whatever you put between `##` and `---` is up to you! As long 
+$x^2$
 
-
+```{r, echo=TRUE}
+sum(1:10)
+```
